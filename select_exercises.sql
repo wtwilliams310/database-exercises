@@ -6,6 +6,8 @@ show tables;
 
 describe albums;
 
+SELECT 'Which album' AS '======Exercise';
+
 SELECT * FROM albums;
 
 # SELECT 'Pink Floyd albums!' AS 'Info';
