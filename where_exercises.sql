@@ -80,6 +80,6 @@ where last_name like 'E%e';
 
 select *
 from employees
-where last_name like '%q%' and last_name not like '%qu%';
+where last_name like '%q%' and not last_name like '%qu%';
 
 
